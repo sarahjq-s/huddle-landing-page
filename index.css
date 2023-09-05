@@ -14,9 +14,9 @@ body{
   height: 100vh;
 
 }
-header{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+ .logo{
+  width: 25%;
+  margin: 2rem;
 }
 
 h1, p{
@@ -27,15 +27,19 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 35px;
 }
 
-#img-mockup{
-  width: 100%;
+.img-bg-container{
+  margin
+}
+
+.img-mockup{
+  width: 80%;
   position: absolute;
+
 }
 
-#content{
+.content{
   margin: 30px;
 }
 

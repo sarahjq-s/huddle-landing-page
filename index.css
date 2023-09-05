@@ -2,8 +2,42 @@
     margin: 0;
     padding: 0;
 }
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --soft magenta: (300, 69%, 71%);
+}
 
+body{
+  background-color: var(--violet);
+  font-family: 'Open Sans', sans-serif;
+  color: #ffff;
+  height: 100vh;
 
+}
+header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1, p{
+  font-family: 'Open Sans', sans-serif;
+
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+
+#img-mockup{
+  width: 100%;
+  position: absolute;
+}
+
+#content{
+  margin: 30px;
+}
 
 .attribution { 
     font-size: 11px; 

@@ -4,26 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --soft magenta: (300, 69%, 71%);
+}
+
+body{
+  background-color: var(--violet);
+  font-family: 'Open Sans', sans-serif;
+  color: #ffff;
+
+}
+header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1, p{
+  font-family: 'Open Sans', sans-serif;
+
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 35px;
+}
+
+#img-mockup{
+  width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+</style>
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
-
-
-  </style>
 </head>
 <body>
+  <header><img src="">Huddle</header>
+  <main id="main">
+    <div id="img-container"><img id="img-mockup" src="images/illustration-mockups.svg" alt="illustration mockup"></div>
+  </main>
 
-  Build The Community Your Fans Will Love
+  <section id="content">
+    <h1>Build The Community Your Fans Will Love</h1>
+    <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion.</p>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  </section>
+    
+  
+  <button>Register</button>
+  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Sarah</a>.
     </p>
   </footer>
 </body>

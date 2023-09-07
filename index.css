@@ -4,7 +4,7 @@
 }
 :root{
   --violet: hsl(257, 40%, 49%);
-  --soft magenta: (300, 69%, 71%);
+  --soft-magenta: hsl(300, 69%, 71%);
 }
 
 body{
@@ -15,8 +15,8 @@ body{
 
 }
  .logo{
-  width: 25%;
-  margin: 2rem;
+  width: 30%;
+  margin-right: auto;
 }
 
 h1, p{
@@ -27,19 +27,30 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: 1em ;
+
+}
+.img-bg-container{
+  width: 100%;
+  position: relative;
 }
 
-.img-bg-container{
-  margin
+.img-bg-mobile{
 }
+
 
 .img-mockup{
-  width: 80%;
+  width: 100%;
   position: absolute;
-
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content{
+  display: flex;
+  flex-direction: column;
   margin: 30px;
 }
 
@@ -49,4 +60,4 @@ main{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+} 

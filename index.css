@@ -18,8 +18,7 @@ body{
   width: 30%;
   position: absolute;
   top: 20%;
-  left: 0;
-  z-index: 3;
+  z-index: 1;
 }
 
 h1, p{
@@ -31,7 +30,7 @@ main{
   position: relative;
   align-items: center;
   justify-content: center;
-
+  padding: 2em 0;
 
 }
 

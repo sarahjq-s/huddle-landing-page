@@ -17,6 +17,8 @@ body{
  .logo{
   width: 30%;
   position: absolute;
+  top: 5%;
+  left 15%;
   z-index: 4;
 }
 
@@ -29,7 +31,7 @@ main{
   position: relative;
   align-items: center;
   justify-content: center;
-  padding: 2em 0;
+  padding: 0 2em;
 
 }
 

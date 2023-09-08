@@ -11,7 +11,7 @@ body{
   background-color: var(--violet);
   font-family: 'Open Sans', sans-serif;
   color: #ffff;
-  height: 100vh;
+  min-height: 100vh;
 
 }
  .logo{
@@ -30,7 +30,6 @@ main{
   display: flex;
   position: relative;
   align-items: center;
-  min-height: 100vh;
 
 }
 
@@ -46,7 +45,6 @@ main{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3em;
 }
 
 .content{

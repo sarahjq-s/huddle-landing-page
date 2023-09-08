@@ -18,7 +18,7 @@ body{
   width: 30%;
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 25%;
   z-index: 1;
 }
 
@@ -35,6 +35,10 @@ main{
 
 }
 
+.img-bg-mobile{
+  z-index: 0;
+  margin: 0 auto;
+}
 
 .img-mockup{
   width: 100%;

@@ -20,6 +20,7 @@ body{
   top: 5%;
   left: 5%;
   z-index: 4;
+  padding-right: 16px;
 }
 
 h1, p{
@@ -40,7 +41,7 @@ main{
 
 .img-mockup{
   width: 100%;
-  position:absolute;
+  position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;

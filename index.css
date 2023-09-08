@@ -38,6 +38,7 @@ main{
 
 .img-mockup{
   width: 100%;
+  position:absolute;
   z-index: 2;
   top: 50%;
   left: 50%;

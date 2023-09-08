@@ -21,6 +21,7 @@ body{
   left: 5%;
   z-index: 4;
   margin-right: auto;
+  padding: 0.5em;
 }
 
 h1, p{
@@ -40,13 +41,13 @@ main{
 }
 
 .img-mockup{
-  min-width: 80%;
+  width: 80%;
   position:absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3em;
+  margin: 3em;
 }
 
 .content{

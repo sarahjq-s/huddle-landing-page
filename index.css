@@ -16,9 +16,9 @@ body{
 }
  .logo{
   width: 30%;
-  top: 0;
-  left: 0;
-  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
 }
 
 h1, p{
@@ -35,15 +35,12 @@ main{
 
 }
 
-.img-bg-mobile{
-}
-
 
 .img-mockup{
   width: 100%;
-    position: absolute;
-  top: 50%;
-  left: 50%;
+  z-index: 2;;
+  top: 50px;
+  left: 50px;
   transform: translate(-50%, -50%);
 }
 

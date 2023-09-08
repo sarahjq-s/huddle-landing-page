@@ -16,8 +16,9 @@ body{
 }
  .logo{
   width: 30%;
-  top: 50px;
-  left: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   z-index: 1;
 }
 

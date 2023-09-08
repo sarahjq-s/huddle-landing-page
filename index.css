@@ -17,6 +17,7 @@ body{
  .logo{
   width: 30%;
   margin-right: auto;
+  position:absolute;
 }
 
 h1, p{
@@ -25,15 +26,12 @@ h1, p{
 }
 main{
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 1em ;
 
-}
-.img-bg-container{
-  width: 100%;
-  position: relative;
 }
 
 .img-bg-mobile{
@@ -42,7 +40,7 @@ main{
 
 .img-mockup{
   width: 100%;
-  position: absolute;
+    position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
